@@ -12,3 +12,5 @@ echo xfce4-session > ~/.xsession
  sed -i 's/port=-1/port=ask-1/g' /etc/xrdp/xrdp.ini
  
  service xrdp restart
+ 
+ echo "Finished"
